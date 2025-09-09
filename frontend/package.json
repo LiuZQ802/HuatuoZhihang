@@ -1,0 +1,43 @@
+{
+  "name": "luojiasql",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/l7": "^2.23.0",
+    "@antv/l7-maps": "^2.23.0",
+    "@met4citizen/talkinghead": "^1.4.0",
+    "@vicons/ionicons5": "^0.13.0",
+    "axios": "^1.10.0",
+    "echarts": "^5.6.0",
+    "highlight.js": "^11.11.1",
+    "leaflet": "^1.9.4",
+    "leaflet.chinatmsproviders": "^3.0.6",
+    "leaflet.fullscreen": "^4.0.0",
+    "lucide-vue-next": "^0.525.0",
+    "path": "^0.12.7",
+    "three": "^0.178.0",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.12",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "@vueuse/core": "^13.5.0",
+    "less": "^4.3.0",
+    "naive-ui": "^2.42.0",
+    "typescript": "~5.8.3",
+    "unplugin-auto-import": "^19.3.0",
+    "unplugin-vue-components": "^28.8.0",
+    "vfonts": "^0.0.3",
+    "vite": "^7.0.3",
+    "vue-tsc": "^2.2.12"
+  }
+}
